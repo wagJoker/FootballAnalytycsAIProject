@@ -1,0 +1,21 @@
+2025-12-10 20:51:20 | FootballQuantumLLM | WARNING | PennyLane not found. Using simulated Quantum Layer.
+2025-12-10 20:51:20 | FootballQuantumLLM | INFO | Running on CPU.
+2025-12-10 20:51:20 | FootballQuantumLLM | INFO | --- Training Classical GPT ---
+2025-12-10 20:51:24 | FootballQuantumLLM | INFO | Iter 0: loss 4.4263
+2025-12-10 20:51:27 | FootballQuantumLLM | INFO | Iter 10: loss 3.9923
+2025-12-10 20:51:29 | FootballQuantumLLM | INFO | Iter 20: loss 3.6867
+2025-12-10 20:51:31 | FootballQuantumLLM | INFO | Iter 30: loss 3.4755
+2025-12-10 20:51:35 | FootballQuantumLLM | INFO | Iter 40: loss 3.3619
+2025-12-10 20:51:36 | FootballQuantumLLM | INFO | Training finished in 11.89s
+2025-12-10 20:51:36 | FootballQuantumLLM | INFO | Classical GPT generated sample:
+2025-12-10 20:51:38 | FootballQuantumLLM | INFO | --- Training Hybrid Quantum GPT ---
+2025-12-10 20:51:38 | FootballQuantumLLM | INFO | Iter 0: loss 4.4747
+2025-12-10 20:51:40 | FootballQuantumLLM | INFO | Iter 10: loss 4.0548
+2025-12-10 20:51:42 | FootballQuantumLLM | INFO | Iter 20: loss 3.7319
+2025-12-10 20:51:43 | FootballQuantumLLM | INFO | Iter 30: loss 3.4542
+2025-12-10 20:51:45 | FootballQuantumLLM | INFO | Iter 40: loss 3.3415
+2025-12-10 20:51:47 | FootballQuantumLLM | INFO | Training finished in 8.78s
+2025-12-10 20:51:47 | FootballQuantumLLM | INFO | Hybrid Quantum GPT generated sample:
+2025-12-10 20:51:48 | FootballQuantumLLM | INFO | --- Comparison ---
+2025-12-10 20:51:48 | FootballQuantumLLM | INFO | Classical Final Loss: 3.1965
+2025-12-10 20:51:48 | FootballQuantumLLM | INFO | Hybrid Final Loss:    3.2578
