@@ -1,0 +1,22 @@
+experiments:
+  - name: yolo8n_baseline
+    model: yolov8n.pt
+    imgsz: 640
+    epochs: 50
+    batch: 16
+    lr0: 0.001
+
+  - name: yolo8s_highres
+    model: yolov8s.pt
+    imgsz: 960
+    epochs: 40
+    batch: 8
+    lr0: 0.0008
+
+  - name: yolo12n_experimental
+    model: yolov12n.pt   # если есть локально, иначе удали этот эксперимент
+    imgsz: 640
+    epochs: 50
+    batch: 16
+    lr0: 0.001
+

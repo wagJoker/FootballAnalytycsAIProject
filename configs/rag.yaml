@@ -1,0 +1,8 @@
+# configs/rag.yaml
+rag:
+  vector_db:
+    enabled: false
+    type: "chroma" # placeholder for future use
+    path: "runs_kaggle/vectordb"
+  retriever:
+    top_n: 20

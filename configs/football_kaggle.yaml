@@ -1,0 +1,11 @@
+# configs/football_kaggle.yaml
+path: ../data/football_kaggle
+train: images/train
+val: images/val
+nc: 4
+names:
+  0: ball
+  1: goalkeeper
+  2: player
+  3: referee
+
